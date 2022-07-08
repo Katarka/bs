@@ -1,6 +1,6 @@
 import React from "react";
 import {Container} from "react-bootstrap";
-import ocean from "../ocean.jpg"
+import azeroth from "../img/azeroth.jpg"
 import styled from "styled-components";
 
 const Styles = styled.div`
@@ -10,7 +10,7 @@ const Styles = styled.div`
   }
 
   .jumbo {
-    background: url(${ocean}) no-repeat fixed bottom;
+    background: url(${azeroth}) no-repeat fixed bottom;
     background-size: cover;
     color: #efefef;
     height: 400px;

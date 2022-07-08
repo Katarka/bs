@@ -1,7 +1,10 @@
 import React from "react";
 import Slider from "./Slider";
 import {Button, Card, Col, Container, Row} from "react-bootstrap";
-import ocean from "../ocean.jpg"
+import classic from "../img/classic.jpg"
+import bc from "../img/bc.jpg"
+import lc from "../img/lc.jpg"
+import logo from "../img/logo-wow.jpg"
 import Jumbotron from "./Jumbotron";
 
 const Home = () => (
@@ -11,9 +14,9 @@ const Home = () => (
             <Row>
                 <Col>
                     <Card style={{width: '18rem'}}>
-                        <Card.Img variant="top" src={ocean}/>
+                        <Card.Img variant="top" src={classic}/>
                         <Card.Body>
-                            <Card.Title>Hey guys</Card.Title>
+                            <Card.Title>Classic</Card.Title>
                             <Card.Text>More text...</Card.Text>
                             <Button variant="primary">Learn more</Button>
                         </Card.Body>
@@ -21,9 +24,9 @@ const Home = () => (
                 </Col>
                 <Col>
                     <Card style={{width: '18rem'}}>
-                        <Card.Img variant="top" src={ocean}/>
+                        <Card.Img variant="top" src={bc}/>
                         <Card.Body>
-                            <Card.Title>Hey guys</Card.Title>
+                            <Card.Title>Burning Crusade</Card.Title>
                             <Card.Text>More text...</Card.Text>
                             <Button variant="primary">Learn more</Button>
                         </Card.Body>
@@ -31,9 +34,9 @@ const Home = () => (
                 </Col>
                 <Col>
                     <Card style={{width: '18rem'}}>
-                        <Card.Img variant="top" src={ocean}/>
+                        <Card.Img variant="top" src={lc}/>
                         <Card.Body>
-                            <Card.Title>Hey guys</Card.Title>
+                            <Card.Title>Wrath of rhe Lich King</Card.Title>
                             <Card.Text>More text...</Card.Text>
                             <Button variant="primary">Learn more</Button>
                         </Card.Body>
@@ -45,7 +48,7 @@ const Home = () => (
         <Container style={{marginBottom: '30px'}}>
             <Row>
                 <Col md={7}>
-                    <img src={ocean} height={400}/>
+                    <img src={logo} height={400}/>
                 </Col>
                 <Col md={5}>
                     <h2>Hello guys</h2>
