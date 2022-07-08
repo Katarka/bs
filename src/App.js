@@ -5,6 +5,7 @@ import Users from "./Components/Users";
 import About from "./Components/About";
 import Home from "./Components/Home";
 import {Route, Routes} from "react-router-dom";
+import Footer from "./Components/Footer";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
                 <Route path="/users" element={<Users/>}/>
                 <Route path="/about" element={<About/>}/>
             </Routes>
+            <Footer/>
         </>
     );
 }
