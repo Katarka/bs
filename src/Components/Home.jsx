@@ -6,6 +6,7 @@ import bc from "../img/bc.jpg"
 import lc from "../img/lc.jpg"
 import logo from "../img/logo-wow.jpg"
 import Jumbotron from "./Jumbotron";
+import Footer from "./Footer";
 
 const Home = () => (
     <>
@@ -58,6 +59,7 @@ const Home = () => (
                 </Col>
             </Row>
         </Container>
+        <Footer/>
     </>
 )
 
